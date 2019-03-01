@@ -8,4 +8,4 @@ resources:
 
 imageTags:
   - name: gcr.io/heptio-images/ks-guestbook-demo
-    newTag: 0.1
+    newTag: "0.1"

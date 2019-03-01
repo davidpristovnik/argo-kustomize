@@ -5,3 +5,7 @@ namePrefix: kustomize-
 resources:
 - guestbook-ui-deployment.yaml
 - guestbook-ui-svc.yaml
+
+imageTags:
+  - name: gcr.io/heptio-images/ks-guestbook-demo
+    newTag: 0.1
